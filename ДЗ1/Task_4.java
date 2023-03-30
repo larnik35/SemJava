@@ -12,15 +12,15 @@ public class Task_4 {
         Scanner iScanner = new Scanner(System.in);
 
         System.out.println("Введите 1-е число");
-        Integer a = iScanner.nextInt();
+        Double a = iScanner.nextDouble();
 
         System.out.println("Введите 2-е число ");
-        Integer b = iScanner.nextInt();
+        Double b = iScanner.nextDouble();
 
         System.out.println("Введите действие");
         String action = iScanner.next();
 
-        Integer rezult = 0;
+        Double rezult = (double) 0;
 
         switch (action) {
             case "+":
