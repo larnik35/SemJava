@@ -3,7 +3,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
-import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
@@ -16,7 +15,7 @@ public class Task_2_2 {
                 "  { { \"фамилия\":\"Иванов\",\"оценка\":\"5\",\"предмет\":\"Математика\"},{\"фамилия\":\"Петрова\",\"оценка\":\"4\",\"предмет\":\"Информатика\"},{\"фамилия\":\"Краснов\",\"оценка\":\"5\",\"предмет\":\"физика\"}} ");
         // System.out.println(student);
         String st = procesingString(student);
-        String nameFail = "\n\n\n\nstudent.txt";
+        String nameFail = "student.txt";
         writToFile(st, nameFail);
 
     }
